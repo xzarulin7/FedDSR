@@ -20,6 +20,8 @@
 
 Medical Image Super-Resolution (SR) is critical for downstream diagnostic tasks, but acquiring large-scale, centralized, high-resolution (HR) medical data is often prohibited by strict privacy regulations. Federated Learning (FL) mitigates privacy concerns by enabling decentralized training; however, it introduces severe challenges, specifically modality heterogeneity (non-IID data distributions) and excessive communication overhead.
 
+<img width="4068" height="2913" alt="combined" src="https://github.com/user-attachments/assets/7a17010e-f1c4-4681-98ba-e962d641c1f8" />
+
 In this repository, we present the official PyTorch implementation for our double-blind submission. We propose **Distribution-Aware Federated Medical Super-Resolution**, a novel framework leveraging a hierarchical **VQ-VAE-2** architecture combined with a semantic-aware federated aggregation strategy. Our approach explicitly tackles extreme non-IID settings across multi-organ CT datasets by utilizing latent codebook vitality and semantic centrality to dynamically compute optimal aggregation weights. This effectively achieves substantial qualitative improvements over baseline aggregation strategies while simultaneously minimizing the required communication bandwidth.
 
 ## 🚀 Motivation
@@ -46,14 +48,6 @@ Our architecture features a robust top-and-bottom codebook quantization scheme c
 - **$\mathcal{L}_{\text{Edge}}$ (Edge-Aware Loss)**: Enhances high-frequency texture boundaries crucially required by radiologists.
 
 ### System Pipeline
->
-> *Note: Placeholders for Figures to maintain double-blind requirements.*
-
-![Architecture Diagram]<img width="4068" height="2913" alt="combined" src="https://github.com/user-attachments/assets/7a17010e-f1c4-4681-98ba-e962d641c1f8" />
-
-*(Figure 1: Overview of the Proposed Federated VQ-VAE-2 Super-Resolution Framework.)*
-
----
 
 ## 📊 Experimental Setup
 
@@ -176,5 +170,6 @@ python calculate_fid.py --clients 4 --gpu 0
 ## 📜 License
 
 This project is licensed under the MIT License - see the `LICENSE` file for details. *(Note: Identity-revealing aspects of the original license have been temporarily removed during the review process).*
+
 
 
