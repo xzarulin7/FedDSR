@@ -49,7 +49,8 @@ Our architecture features a robust top-and-bottom codebook quantization scheme c
 >
 > *Note: Placeholders for Figures to maintain double-blind requirements.*
 
-![Architecture Diagram](combined.pdf)
+![Architecture Diagram]<img width="4068" height="2913" alt="combined" src="https://github.com/user-attachments/assets/7a17010e-f1c4-4681-98ba-e962d641c1f8" />
+
 *(Figure 1: Overview of the Proposed Federated VQ-VAE-2 Super-Resolution Framework.)*
 
 ---
@@ -94,7 +95,7 @@ Specifically, our approach yields:
 
 We provide visual comparisons to substantiate the quantitative improvements against other state-of-the-art architectures.
 
-![Qualitative Results Comparison](sr_lr_hr.pdf)
+![Qualitative Results Comparison]
 *(Figure 2: Super-resolution reconstruction outputs. Our proposed method on the right demonstrates superior edge-preservation and artifact reduction compared to standard baselines.)*
 
 ---
@@ -175,4 +176,5 @@ python calculate_fid.py --clients 4 --gpu 0
 ## 📜 License
 
 This project is licensed under the MIT License - see the `LICENSE` file for details. *(Note: Identity-revealing aspects of the original license have been temporarily removed during the review process).*
+
 
