@@ -18,7 +18,7 @@
 
 ## 📖 Abstract / Overview
 
-Medical Image Super-Resolution (SR) is critical for downstream diagnostic tasks, but acquiring large-scale, centralized, high-resolution (HR) medical data is often prohibited by strict privacy regulations. Federated Learning (FL) mitigates privacy concerns by enabling decentralized training; however, it introduces severe challenges, specifically modality heterogeneity (non-IID data distributions) and excessive communication overhead.
+Medical Image Super-Resolution (SR) is critical for downstream diagnostic tasks, but acquiring large-scale, centralized, high-resolution (HR) medical data is often prohibited by strict privacy regulations. Federated Learning (FL) mitigates privacy concerns by enabling decentralized training; however, it introduces severe challenges, specifically modality heterogeneity and excessive communication overhead.
 
 <img width="4068" height="2913" alt="combined" src="https://github.com/user-attachments/assets/7a17010e-f1c4-4681-98ba-e962d641c1f8" />
 
@@ -170,6 +170,7 @@ python calculate_fid.py --clients 4 --gpu 0
 ## 📜 License
 
 This project is licensed under the MIT License - see the `LICENSE` file for details. *(Note: Identity-revealing aspects of the original license have been temporarily removed during the review process).*
+
 
 
 
