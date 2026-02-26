@@ -83,16 +83,6 @@ Specifically, our approach yields:
 
 *(Note: Exact quantitative tables will be updated upon paper acceptance. Please refer to the manuscript for comprehensive benchmarking.)*
 
----
-
-## 🖼️ Qualitative Results
-
-We provide visual comparisons to substantiate the quantitative improvements against other state-of-the-art architectures.
-
-![Qualitative Results Comparison]
-*(Figure 2: Super-resolution reconstruction outputs. Our proposed method on the right demonstrates superior edge-preservation and artifact reduction compared to standard baselines.)*
-
----
 
 ## 🛠️ Installation
 
@@ -170,6 +160,7 @@ python calculate_fid.py --clients 4 --gpu 0
 ## 📜 License
 
 This project is licensed under the MIT License - see the `LICENSE` file for details. *(Note: Identity-revealing aspects of the original license have been temporarily removed during the review process).*
+
 
 
 
