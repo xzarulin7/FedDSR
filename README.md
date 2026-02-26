@@ -1,6 +1,6 @@
 <div align="center">
 
-# Anonymized for Double-Blind Review: Federated Medical Image Super-Resolution using VQ-VAE-2
+#  FedDSR: Federated Distribution-aware CT Super-Resolution under Data Heterogeneity
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-EE4C2C.svg?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org)
@@ -175,3 +175,4 @@ python calculate_fid.py --clients 4 --gpu 0
 ## 📜 License
 
 This project is licensed under the MIT License - see the `LICENSE` file for details. *(Note: Identity-revealing aspects of the original license have been temporarily removed during the review process).*
+
