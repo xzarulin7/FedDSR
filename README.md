@@ -156,9 +156,7 @@ python calculate_fid.py --clients 4 --gpu 0
 └── README.md                  # This documentation
 ```
 
-## 📜 License
 
-This project is licensed under the MIT License - see the `LICENSE` file for details. *(Note: Identity-revealing aspects of the original license have been temporarily removed during the review process).*
 
 
 
