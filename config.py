@@ -6,8 +6,8 @@ import numpy as np
 # -----------------
 # Project Config
 # -----------------
-PROJECT_NAME = "FedMedSR_VQVAE2"
-RESULTS_DIR = "FedMedSR_results"
+PROJECT_NAME = "FedDSR_VQVAE2"
+RESULTS_DIR = "FedDSR_results"
 
 # -----------------
 # Hardware Config
@@ -50,11 +50,11 @@ IMAGE_SIZE = 256
 IMAGE_CHANNELS = 1  
 
 NUM_CLIENTS = 4
-GLOBAL_ROUNDS = 50  # Increased for better convergence to 41+ dB
+GLOBAL_ROUNDS = 30
 AGGREGATOR = "FedMedSR"
 LOCAL_EPOCHS = 5
 BATCH_SIZE = 8
-LEARNING_RATE = 5e-5  # Reduced for fine-tuning (was 1e-4)
+LEARNING_RATE = 5e-5  
 FEDPROX_MU = 0.01
 EARLY_STOPPING_PATIENCE = 15
 NUM_WORKERS = 8
@@ -62,12 +62,12 @@ NUM_WORKERS = 8
 
 CODEBOOK_DEAD_THRESHOLD = 10
 CODEBOOK_RESET_INTERVAL = 100
-# ORTHO_WEIGHT = 0.01  # No longer needed
+# ORTHO_WEIGHT = 0.01 
 
 
 ENCODER_TOP_CONFIG = {
     "in_channels": IMAGE_CHANNELS,
-    "hidden_channels": 384,  # Increased from 256 for 41+ dB      
+    "hidden_channels": 384,     
     "num_residual_layers": 6,  # More layers for better features    
     "num_residual_hiddens": 96,  # Wider residual blocks
     "downsample_factor": 2
