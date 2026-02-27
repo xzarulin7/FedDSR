@@ -88,8 +88,8 @@ Specifically, our approach yields:
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/anonymous-submission/federated-medical-sr.git
-cd federated-medical-sr
+git clone https://github.com/xzarulin7/FedDSR.git
+cd FedDSR
 ```
 
 **2. Create a virtual environment**
@@ -155,6 +155,7 @@ python calculate_fid.py --clients 4 --gpu 0
 ├── utils.py                   # Custom composite loss functions & loggers
 └── README.md                  # This documentation
 ```
+
 
 
 
