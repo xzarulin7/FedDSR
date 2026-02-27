@@ -1,6 +1,6 @@
 <div align="center">
 
-#  FedDSR: Distribution-Aware Federated Super-Resolution for Heterogeneous CT Imaging
+#  FedDSR: Codebook-Based Distribution Alignment for Heterogeneous Federated CT Super-Resolution
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-EE4C2C.svg?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org)
@@ -155,6 +155,7 @@ python calculate_fid.py --clients 4 --gpu 0
 ├── utils.py                   # Custom composite loss functions & loggers
 └── README.md                  # This documentation
 ```
+
 
 
 
