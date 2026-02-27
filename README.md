@@ -10,7 +10,6 @@
 [![Architecture](https://img.shields.io/badge/Architecture-VQ--VAE--2-f39c12.svg?style=for-the-badge)](#)
 [![Data](https://img.shields.io/badge/Data-Multi--Organ%20CT-4caf50.svg?style=for-the-badge)](#)
 [![Setting](https://img.shields.io/badge/Setting-Non--IID-e74c3c.svg?style=for-the-badge)](#)
-[![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](#license)
 
 </div>
 
@@ -160,6 +159,7 @@ python calculate_fid.py --clients 4 --gpu 0
 ## 📜 License
 
 This project is licensed under the MIT License - see the `LICENSE` file for details. *(Note: Identity-revealing aspects of the original license have been temporarily removed during the review process).*
+
 
 
 
